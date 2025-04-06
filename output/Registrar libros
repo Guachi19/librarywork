@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
+  <diagram name="Página-1" id="7stVDfHbK6j04YTZxKlq">
+    <mxGraphModel dx="1457" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-21" value="Inicio" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="370" width="99" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-22" value="Ingresar codigo del libro" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="178" y="474" width="233" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-23" value="El codigo ya existe?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="197" y="578" width="195" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-24" value="Mostrar mensaje: El libro ya esta registrado" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1315" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-25" value="Fin" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1443" width="81" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-26" value="Ingresar titulo" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="359" y="849" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-27" value="Ingresar autor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="953" width="157" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-28" value="Ingresar disponibilidad: si o no" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="1083" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-29" value="Crear estructura tipo Libro" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="313" y="1211" width="251" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-30" value="Agregar libro a la lista" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1327" width="216" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-21" target="ggoRbP_xL8DAdlmM4gQG-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-22" target="ggoRbP_xL8DAdlmM4gQG-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-33" value="Si" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-23" target="ggoRbP_xL8DAdlmM4gQG-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="811" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=-0.01;entryY=0.23;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-24" target="ggoRbP_xL8DAdlmM4gQG-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-35" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-23" target="ggoRbP_xL8DAdlmM4gQG-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="811" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-26" target="ggoRbP_xL8DAdlmM4gQG-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-27" target="ggoRbP_xL8DAdlmM4gQG-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-28" target="ggoRbP_xL8DAdlmM4gQG-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-29" target="ggoRbP_xL8DAdlmM4gQG-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggoRbP_xL8DAdlmM4gQG-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.99;entryY=0.23;rounded=0;" edge="1" parent="1" source="ggoRbP_xL8DAdlmM4gQG-30" target="ggoRbP_xL8DAdlmM4gQG-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="1418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
